@@ -72,6 +72,7 @@ h1 {
   font-family: "Fraunces", serif;
   font-size: 37px;
   line-height: 0.9;
+  color: var(--dark-blue);
 }
 
 .product-description p {
@@ -112,4 +113,8 @@ h1 {
 
 .button img {
   margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #1a4031;
 }
